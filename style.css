@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(to bottom, #460101, rgb(255, 64, 0));
+  min-height: 100vh;
+  margin: 0;
+  font-family: fantasy;
+}
+
+.checkListBox {
+  margin: 40px;
+  text-align: center;
+}
+.titol {
+  border: 2px solid #b8860b;
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  color: #ffd700;
+}
+.imputBox {
+  text-align: center;
+
+  display: inline;
+}
+.imputPlaceholder {
+  text-align: center;
+  font-family: fantasy;
+  background: linear-gradient(to bottom, #460101, rgb(255, 64, 0));
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  color: #ffd700;
+  font-size: 1.2rem;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #b8860b;
+  margin-left: 60px;
+}
+
+.storageBox {
+  color: color #ffd700;
+
+  text-align: left;
+
+  list-style: none;
+  background: linear-gradient(to top, darkred, darkorange);
+  border: 2px solid #b8860b;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  min-height: 200px;
+  overflow-y: auto;
+}
+.checkBtn {
+  background: linear-gradient(to top, darkred, darkorange);
+
+  width: 3rem;
+  height: 3rem;
+  margin: 8px;
+  padding: 18px;
+  border-radius: 10px;
+}
+.deleteBtn {
+  margin: 1rem;
+  height: 2rem;
+  width: 2rem;
+  background-color: red;
+  border-radius: 9px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.listOfCheckList {
+  list-style: none;
+  font-size: xx-large;
+  color: #ffd700;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
