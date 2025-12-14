@@ -1,7 +1,6 @@
 const button = document.querySelector(".checkBtn");
 const input = document.querySelector(".imputPlaceholder");
 const taskList = document.querySelector(".taskList");
-
 button.addEventListener("click", function () {
   const inputText = input.value;
   if (inputText === "") {
